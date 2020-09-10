@@ -1,0 +1,165 @@
+header{
+	background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+	background-color:#cccccc;
+	display: inline-block;
+	width: 100%;
+	height: 20%;
+}
+
+h1{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 200%;
+	text-align: center;
+}
+
+nav{
+	margin-left: 60px ;
+	padding-bottom: 10px;
+}
+
+nav a{
+	background:#fff;
+	font-weight: bold;
+	display: inline-block;
+	width: 20%;
+	background: rgba(197, 255, 253,0.5);
+	border: 1px;
+	border-radius: 4px;
+	border-style: none;
+	padding: 4px;
+	margin-right: 1%;
+	margin-left: 1%;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover{
+	background:#ffffff;
+}
+
+.active{
+	background: #ffffff;
+}
+
+a{
+	color: #000000;
+}
+.left{
+	display: block;
+	float: left;
+	width:300px;
+	height:600px;
+	background: #91ADC2;
+	margin-right: 20px;
+}
+
+.right{
+	display: inline-block;
+	width:70%
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 150%;
+	color: 	#60463B;
+}
+section{
+	padding-left:1px;
+}
+body{
+	margin: 3%;
+}
+
+img{
+  width: 200px;
+  margin-top: 50px;
+  margin-left:50px;
+  border:2px solid #60463B;
+}
+
+/*Set the table color, border, and spacing...*/
+table{
+	color:#1E3231;
+	border-spacing: 5px ;
+	border: 3px solid white;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 25px 25px;
+	margin: 0 auto;
+}
+/*Alternate colors between even and odd weeks*/
+tr{
+	background: #FFFECB;
+}
+ 
+tr:last-child{
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 25px 25px;	
+}
+tr:last-child>td:first-child {
+	-webkit-border-radius: 0 0 0 25px;
+	border-radius: 0 0 0 25px;	
+}
+
+tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 25px 0;
+	border-radius: 0 0 25px 0;	
+}
+
+
+/*Format the caption
+Use border-radius for just some corners*/
+.right caption{
+	text-transform: uppercase;
+	background-color: #666666;
+	color:#ffffff;
+	font-size: 150%;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 25px 25px 0 0;
+}
+
+/*Format common heading and element attributes*/
+.right th, .right td{
+	margin: 2px;
+	padding-bottom: 2px;
+}
+
+/*Format the table headings*/
+th{
+	text-align: center;
+	background: #1E3231;
+	color: white;
+	height: 50px;
+	border-radius: 10px 10px 0 0;
+}
+
+/*Set the size and alignment for elements*/
+.right td{
+	width:200px;
+	height:40px;
+	vertical-align:top;
+
+}
+td:first-child {
+  text-align: left;
+}
+
+td:nth-child(2) {
+  text-align: center;
+
+}
+
+td:nth-child(3) {
+  text-align: center;
+  }
+  
+td{
+	color: (30, 50, 49,);
+	opacity: 0.85;
+}
+
+td:hover{
+	opacity: 1;
+}
+
